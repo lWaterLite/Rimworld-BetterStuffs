@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>BetterStuffs</name>
+	<author>1ow.com</author>
+	<packageId>BetterStuffs.BS</packageId>	
+	<supportedVersions>
+	<li>1.0</li>
+    <li>1.1</li>
+	</supportedVersions>
+	<description>
+	添加了一系列来自原版的物品，但都比原版更强。
+	Add series of stuffs from vanilla, but Better than vanilla.
+	</description>
+</ModMetaData>
