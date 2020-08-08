@@ -1,12 +1,28 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
 
-    <LanguageData>
-        <LOW_Apparel_BetterDuster.label>更好的防尘大衣</LOW_Apparel_BetterDuster.label>
-        <LOW_Apparel_BetterDuster.description>一件改良过的防尘大衣，增加了许多口袋来放置工具，更合理的设计结构使得衣物轻便的同时提高了防御能力，内衬的小物件能帮助殖民者更好地完成各项工作，绝对是居家旅行必备。</LOW_Apparel_BetterDuster.description>
-        <LOW_Apparel_BetterPants.label>更好的裤子</LOW_Apparel_BetterPants.label>
-        <LOW_Apparel_BetterPants.description>更好的裤子，上面缝合了许多口袋，分工明确，极大地提高了工作效率。</LOW_Apparel_BetterPants.description>
-        <LOW_Apparel_BetterTShirt.label>更好的T恤衫</LOW_Apparel_BetterTShirt.label>
-        <LOW_Apparel_BetterTShirt.description>更好的T恤衫，更高级的缝合技艺使得衣物轻便的同时增强了衣物的强度。</LOW_Apparel_BetterTShirt.description>
-        <LOW_Apparel_BetterCowboyHat.description>更好的牛仔帽，不知道哪里来的高级工艺让这顶帽子拥有了许多原本不应出现的能力。</LOW_Apparel_BetterCowboyHat>
-        <LOW_Apparel_BetterCowboyHat.label>更好的牛仔帽</LOW_Apparel_BetterCowboyHat.label>
-    </LanguageData>
+  <!-- 更好的防尘大衣 -->
+
+  <LOW_Apparel_BetterDuster.label>更好的防尘大衣</LOW_Apparel_BetterDuster.label>
+  <LOW_Apparel_BetterDuster.description>一件改良过的防尘大衣，增加了许多口袋来放置工具，更合理的设计结构使得衣物轻便的同时提高了防御能力，内衬的小物件能帮助殖民者更好地完成各项工作，绝对是居家旅行必备。</LOW_Apparel_BetterDuster.description>
+
+
+  <!-- 更好的裤子 -->
+
+  <LOW_Apparel_BetterPants.label>更好的裤子</LOW_Apparel_BetterPants.label>
+  <LOW_Apparel_BetterPants.description>更好的裤子，上面缝合了许多口袋，分工明确，极大地提高了工作效率。</LOW_Apparel_BetterPants.description>
+
+
+  <!-- 更好的T恤 -->
+
+  <LOW_Apparel_BetterTShirt.label>更好的T恤衫</LOW_Apparel_BetterTShirt.label>
+  <LOW_Apparel_BetterTShirt.description>更好的T恤衫，更高级的缝合技艺使得衣物轻便的同时增强了衣物的强度。</LOW_Apparel_BetterTShirt.description>
+
+
+  <!-- 更好的牛仔帽 -->
+
+  <LOW_Apparel_BetterCowboyHat.label>更好的牛仔帽</LOW_Apparel_BetterCowboyHat.label>
+  <LOW_Apparel_BetterCowboyHat.description>更好的牛仔帽，不知道哪里来的高级工艺让这顶帽子拥有了许多原本不应出现的能力。</LOW_Apparel_BetterCowboyHat.description>
+
+
+</LanguageData>

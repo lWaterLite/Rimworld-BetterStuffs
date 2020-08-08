@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!--更好的乐思芯片-->>
+    <HediffDef ParentName="ImplantHediffBase">
+    <defName>LOW_BodyParts_BetterJoywire</defName>
+    <label>better joywire</label>
+    <labelNoun>a better joywire</labelNoun>
+    <description>An installed better joywire.</description>
+    <descriptionHyperlinks><ThingDef>LOW_BodyParts_BetterJoywire</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>LOW_BodyParts_BetterJoywire</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <partEfficiencyOffset>+0.05</partEfficiencyOffset>  <!--changed-->
+      </li>
+    </stages>
+    </HediffDef>
+
+    <ThingDef ParentName="BodyPartProstheticBase">
+    <defName>LOW_BodyParts_BetterJoywire</defName>
+    <label>better joywire</label>
+    <description>A advanced brain implant that stimulates the brain's pleasure centers. Made by certain black-tech,this better joywire even improves user's mind.</description>
+    <descriptionHyperlinks><RecipeDef>InstallBetterJoywire</RecipeDef></descriptionHyperlinks>
+    <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
+    <costList>
+      <Plasteel>75</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+      <ComponentIndustrial>10</ComponentIndustrial>
+      <Gold>200</Gold>
+    </costList>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <statBases>
+      <Mass>0.3</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef>
+    <defName>LOW_CreatBetterJoywire</defName>
+	  <label>creat better joywire</label>
+    <description>creat better joywire</description>
+    <jobString>creat better joywire</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>50000</workAmount>
+    <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+    <products>
+		  <LOW_BodyParts_BetterJoywire>1</LOW_BodyParts_BetterJoywire>
+	  </products>
+    <ingredients>
+      <li>
+		<filter>
+		  <thingDefs>
+			<li>ComponentSpacer</li>
+		  </thingDefs>
+		</filter>
+		<count>5</count>
+	  </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>2.0</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ComponentIndustrial</li>
+        <li>ComponentSpacer</li>
+        <li>Plasteel</li>
+        <li>Gold</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <researchPrerequisite>AdvancedFabrication</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>15</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers>
+	  <li>FabricationBench</li>
+	</recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>InstallBetterJoywire</defName>
+    <label>install better joywire</label>
+    <description>Install a better joywire.</description>
+    <descriptionHyperlinks><ThingDef>LOW_BodyParts_BetterJoywire</ThingDef></descriptionHyperlinks>
+    <jobString>Installing better joywire.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LOW_BodyParts_BetterJoywire</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>LOW_BodyParts_BetterJoywire</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>LOW_BodyParts_BetterJoywire</addsHediff>
+  </RecipeDef>
+
+  <ThoughtDef>
+    <defName>LOW_BodyParts_BetterJoywire</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>LOW_BodyParts_BetterJoywire</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>better joywire</label>
+        <description>I'm really really blissful</description>
+        <baseMoodEffect>12</baseMoodEffect>  <!--changed-->
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>
